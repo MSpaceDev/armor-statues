@@ -1,0 +1,34 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": "#armor_statues:potions",
+            "predicates": {
+              "minecraft:potion_contents": "minecraft:invisibility"
+            }
+          }
+        }
+      }
+    },
+	{
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": "#armor_statues:potions",
+            "predicates": {
+              "minecraft:potion_contents": "minecraft:long_invisibility"
+            }
+          }
+        }
+      }
+    }
+    
+  ]
+}

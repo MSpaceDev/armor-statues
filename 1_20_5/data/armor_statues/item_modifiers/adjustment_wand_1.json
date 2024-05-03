@@ -1,0 +1,39 @@
+[
+	{
+		"function": "minecraft:set_custom_data",
+		"tag":{ "wand":1 }
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:enchantment_glint_override": true
+		}
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag":{ "type":1 }
+	},
+	{
+		"function": "minecraft:set_custom_model_data",
+		"value": 11
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Adjustment Wand: Y axis"
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+		  ["",
+		  {"keybind":"key.sneak"},
+		  {"text":"+"},
+		  {"keybind":"key.use"},
+		  {"text":" to set mode"}]
+		],
+		"mode": "replace_all"
+	  }
+]

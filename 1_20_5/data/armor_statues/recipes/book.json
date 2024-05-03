@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "armor_statues",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:armor_stand"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:written_book",
+    "components": {
+      "minecraft:custom_model_data": 10,
+      "minecraft:custom_data": {
+        "datapack": "ArmorStatuesV2"
+      },
+      "minecraft:written_book_content": {
+        "title": "Statues v2.12",
+        "author": "Stick God",
+        "generation": 0,
+        "resolved": false,
+        "pages": [
+          "{ \"storage\": \"armor_statues:book_data\", \"interpret\": true, \"nbt\": \"components.minecraft:written_book_content.pages[0]\" }",
+          "{ \"storage\": \"armor_statues:book_data\", \"interpret\": true, \"nbt\": \"components.minecraft:written_book_content.pages[1]\" }",
+          "{ \"storage\": \"armor_statues:book_data\", \"interpret\": true, \"nbt\": \"components.minecraft:written_book_content.pages[2]\" }",
+          "{ \"storage\": \"armor_statues:book_data\", \"interpret\": true, \"nbt\": \"components.minecraft:written_book_content.pages[3]\" }",
+          "{ \"storage\": \"armor_statues:book_data\", \"interpret\": true, \"nbt\": \"components.minecraft:written_book_content.pages[4]\" }",
+          "{ \"storage\": \"armor_statues:book_data\", \"interpret\": true, \"nbt\": \"components.minecraft:written_book_content.pages[5]\" }",
+          "{ \"storage\": \"armor_statues:book_data\", \"interpret\": true, \"nbt\": \"components.minecraft:written_book_content.pages[6]\" }",
+          "{ \"storage\": \"armor_statues:book_data\", \"interpret\": true, \"nbt\": \"components.minecraft:written_book_content.pages[7]\" }",
+          "{ \"storage\": \"armor_statues:book_data\", \"interpret\": true, \"nbt\": \"components.minecraft:written_book_content.pages[8]\" }",
+          "{ \"storage\": \"armor_statues:book_data\", \"interpret\": true, \"nbt\": \"components.minecraft:written_book_content.pages[9]\" }"
+        ]
+      }
+    }
+  }
+}

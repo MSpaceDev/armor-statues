@@ -1,0 +1,21 @@
+
+{
+  "type": "minecraft:loot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "reference",
+              "name": "armor_statues:adjustment_wand_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+
+{
+  "type": "minecraft:loot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "datapack": "ArmorStatuesV2"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 10
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Statues v2.12",
+              "author": "Stick God",
+              "generation": 0
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "mode": "replace_all",
+              "pages": [
+                {
+                  "storage": "armor_statues:book_data",
+                  "interpret": true,
+                  "nbt": "components.minecraft:written_book_content.pages[0]"
+                },
+                {
+                  "storage": "armor_statues:book_data",
+                  "interpret": true,
+                  "nbt": "components.minecraft:written_book_content.pages[1]"
+                },
+                {
+                  "storage": "armor_statues:book_data",
+                  "interpret": true,
+                  "nbt": "components.minecraft:written_book_content.pages[2]"
+                },
+                {
+                  "storage": "armor_statues:book_data",
+                  "interpret": true,
+                  "nbt": "components.minecraft:written_book_content.pages[3]"
+                },
+                {
+                  "storage": "armor_statues:book_data",
+                  "interpret": true,
+                  "nbt": "components.minecraft:written_book_content.pages[4]"
+                },
+                {
+                  "storage": "armor_statues:book_data",
+                  "interpret": true,
+                  "nbt": "components.minecraft:written_book_content.pages[5]"
+                },
+                {
+                  "storage": "armor_statues:book_data",
+                  "interpret": true,
+                  "nbt": "components.minecraft:written_book_content.pages[6]"
+                },
+                {
+                  "storage": "armor_statues:book_data",
+                  "interpret": true,
+                  "nbt": "components.minecraft:written_book_content.pages[7]"
+                },
+                {
+                  "storage": "armor_statues:book_data",
+                  "interpret": true,
+                  "nbt": "components.minecraft:written_book_content.pages[8]"
+                },
+                {
+                  "storage": "armor_statues:book_data",
+                  "interpret": true,
+                  "nbt": "components.minecraft:written_book_content.pages[9]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
