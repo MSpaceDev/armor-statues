@@ -11,6 +11,7 @@ function armor_statues:repeat/save_redo_state
 #
 data modify entity @e[type=minecraft:armor_stand,sort=nearest,limit=1,tag=as_selected] {} merge from storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.UndoStates[0]
 data modify entity @e[type=minecraft:armor_stand,sort=nearest,limit=1,tag=as_selected] Pose set from storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.UndoStates[0].Pose
+execute as @e[type=minecraft:armor_stand,sort=nearest,limit=1,tag=as_selected] run function armor_statues:set_scale with storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.UndoStates[0]
 #
 # Deletes undo state state
 #

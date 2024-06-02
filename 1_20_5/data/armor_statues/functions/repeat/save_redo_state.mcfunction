@@ -17,3 +17,4 @@ data modify storage armor_statues:book_storage SavedItem.components.minecraft:cu
 data modify storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.RedoStates[0].Pos set from entity @e[type=armor_stand,sort=nearest,limit=1,tag=as_selected] Pos
 data modify storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.RedoStates[0].Rotation set from entity @e[type=armor_stand,sort=nearest,limit=1,tag=as_selected] Rotation
 data modify storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.RedoStates[0].HasVisualFire set from entity @e[type=armor_stand,sort=nearest,limit=1,tag=as_selected] HasVisualFire
+execute store result storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.RedoStates[0].Scale double 0.001 run attribute @e[type=armor_stand,sort=nearest,limit=1,tag=as_selected] minecraft:generic.scale get 1000
