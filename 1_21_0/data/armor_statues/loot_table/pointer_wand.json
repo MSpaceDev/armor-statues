@@ -1,0 +1,21 @@
+
+{
+  "type": "minecraft:loot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "reference",
+              "name": "armor_statues:pointer_wand"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
