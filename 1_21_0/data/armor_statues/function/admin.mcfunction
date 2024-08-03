@@ -534,7 +534,7 @@ execute if score #name_enabled as_angle matches 1 run tellraw @s [\
 # Disable auto visible name
 execute if score #auto_name_visible as_angle matches 0 run tellraw @s [\
     {\
-        "text":"Disable auto visible name: ",\
+        "text":"Auto name visibility: ",\
         "color":"aqua"\
     },\
     {\
@@ -555,7 +555,7 @@ execute if score #auto_name_visible as_angle matches 0 run tellraw @s [\
 ]
 execute if score #auto_name_visible as_angle matches 1 run tellraw @s [\
     {\
-        "text":"Disable auto visible name: ",\
+        "text":"Auto name visibility: ",\
         "color":"aqua"\
     },\
     {\
