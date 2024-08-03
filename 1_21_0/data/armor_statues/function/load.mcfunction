@@ -61,6 +61,9 @@ execute unless score #pointer_triggerable as_angle matches 0..1 run scoreboard p
 execute unless score #adjustment_triggerable as_angle matches 0..1 run scoreboard players set #adjustment_triggerable as_angle 0
 execute unless score #scale_min as_angle matches 63..1000 run scoreboard players set #scale_min as_angle 250
 execute unless score #scale_max as_angle matches 1000..16000 run scoreboard players set #scale_max as_angle 3000
+execute unless score #cnv_enabled as_angle matches 0..1 run scoreboard players set #cnv_enabled as_angle 0
+execute unless score #name_enabled as_angle matches 0..1 run scoreboard players set #name_enabled as_angle 0
+execute unless score #auto_name_visible as_angle matches 0..1 run scoreboard players set #auto_name_visible as_angle 1
 #
 # Legacy settings
 #

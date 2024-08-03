@@ -35,7 +35,7 @@ execute as @e[type=#armor_statues:interactable,type=!minecraft:armor_stand,tag=a
 #
 # turns armor stands with names visible
 #
-execute as @e[type=minecraft:armor_stand,nbt=!{CustomNameVisible:1b}, nbt=!{Marker:1b}, nbt=!{Invulnerable:1b}] if data entity @s CustomName run data merge entity @s {CustomNameVisible:1b}
+execute if score #auto_name_visible as_angle matches 1.. as @e[type=minecraft:armor_stand,nbt=!{CustomNameVisible:1b}, nbt=!{Marker:1b}, nbt=!{Invulnerable:1b}] if data entity @s CustomName run data merge entity @s {CustomNameVisible:1b}
 #
 # re-enables triggers
 #

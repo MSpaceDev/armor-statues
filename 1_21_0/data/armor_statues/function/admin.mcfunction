@@ -444,6 +444,137 @@ execute if score #wands_disabled as_angle matches 1 run tellraw @s [\
     }\
 ]
 #
+# Save CustomNameVisible with copy/paste
+#
+execute if score #cnv_enabled as_angle matches 0 run tellraw @s [\
+    {\
+        "text":"Enable copy/paste value of CustomNameVisible: ",\
+        "color":"aqua"\
+    },\
+    {\
+        "text": "Disabled",\
+        "color":"green", \
+        "clickEvent":{\
+            "action":"run_command", \
+            "value":"/function armor_statues:admin/customnamevisible_enabled_toggle"\
+        }, \
+        "hoverEvent":{\
+            "action":"show_text", \
+            "contents":{\
+                "text":"Click to toggle", \
+                "color":"yellow"\
+            }\
+        }\
+    }\
+]
+execute if score #cnv_enabled as_angle matches 1 run tellraw @s [\
+    {\
+        "text":"Enable copy/paste value of CustomNameVisible: ",\
+        "color":"aqua"\
+    },\
+    {\
+        "text": "Enabled",\
+        "color":"green", \
+        "clickEvent":{\
+            "action":"run_command", \
+            "value":"/function armor_statues:admin/customnamevisible_enabled_toggle"\
+        }, \
+        "hoverEvent":{\
+            "action":"show_text", \
+            "contents":{\
+                "text":"Click to toggle", \
+                "color":"yellow"\
+            }\
+        }\
+    }\
+]
+# Save Name with copy/paste
+execute if score #name_enabled as_angle matches 0 run tellraw @s [\
+    {\
+        "text":"Enable copy/paste for armor stand Name: ",\
+        "color":"aqua"\
+    },\
+    {\
+        "text": "Disabled",\
+        "color":"green", \
+        "clickEvent":{\
+            "action":"run_command", \
+            "value":"/function armor_statues:admin/name_enabled_toggle"\
+        }, \
+        "hoverEvent":{\
+            "action":"show_text", \
+            "contents":{\
+                "text":"Click to toggle", \
+                "color":"yellow"\
+            }\
+        }\
+    }\
+]
+execute if score #name_enabled as_angle matches 1 run tellraw @s [\
+    {\
+        "text":"Enable copy/paste for armor stand Name: ",\
+        "color":"aqua"\
+    },\
+    {\
+        "text": "Enabled",\
+        "color":"green", \
+        "clickEvent":{\
+            "action":"run_command", \
+            "value":"/function armor_statues:admin/name_enabled_toggle"\
+        }, \
+        "hoverEvent":{\
+            "action":"show_text", \
+            "contents":{\
+                "text":"Click to toggle", \
+                "color":"yellow"\
+            }\
+        }\
+    }\
+]
+# Disable auto visible name
+execute if score #auto_name_visible as_angle matches 0 run tellraw @s [\
+    {\
+        "text":"Disable auto visible name: ",\
+        "color":"aqua"\
+    },\
+    {\
+        "text": "Disabled",\
+        "color":"green", \
+        "clickEvent":{\
+            "action":"run_command", \
+            "value":"/function armor_statues:admin/auto_name_visible_toggle"\
+        }, \
+        "hoverEvent":{\
+            "action":"show_text", \
+            "contents":{\
+                "text":"Click to toggle", \
+                "color":"yellow"\
+            }\
+        }\
+    }\
+]
+execute if score #auto_name_visible as_angle matches 1 run tellraw @s [\
+    {\
+        "text":"Disable auto visible name: ",\
+        "color":"aqua"\
+    },\
+    {\
+        "text": "Enabled",\
+        "color":"green", \
+        "clickEvent":{\
+            "action":"run_command", \
+            "value":"/function armor_statues:admin/auto_name_visible_toggle"\
+        }, \
+        "hoverEvent":{\
+            "action":"show_text", \
+            "contents":{\
+                "text":"Click to toggle", \
+                "color":"yellow"\
+            }\
+        }\
+    }\
+]
+#
 tellraw @s [\
     {\
         "text":"Delete unused invisible stands",\

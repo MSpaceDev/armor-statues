@@ -14,6 +14,9 @@ data modify storage armor_statues:book_storage SavedItem.components.minecraft:cu
 data modify storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.SavedPose.Invisible set from entity @s Invisible
 data modify storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.SavedPose.HasVisualFire set from entity @s HasVisualFire
 execute store result storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.SavedPose.Scale double 0.001 run attribute @s minecraft:generic.scale get 1000
+execute if score #cnv_enabled as_angle matches 1.. run data modify storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.SavedPose.CustomNameVisible set value 0
+execute if score #cnv_enabled as_angle matches 1.. run data modify storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.SavedPose.CustomNameVisible set from entity @s CustomNameVisible
+execute if score #name_enabled as_angle matches 1.. run data modify storage armor_statues:book_storage SavedItem.components.minecraft:custom_data.SavedPose.CustomName set from entity @s CustomName
 #
 execute as @p[tag=as_selected] run function armor_statues:storage_out
 #
