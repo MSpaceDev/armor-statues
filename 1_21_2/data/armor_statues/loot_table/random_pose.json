@@ -12,184 +12,184 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "name": "head_x",
+                    "id": "head_x",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "head_y",
+                    "id": "head_y",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "head_z",
+                    "id": "head_z",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "body_x",
+                    "id": "body_x",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "body_y",
+                    "id": "body_y",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "body_z",
+                    "id": "body_z",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "left_arm_x",
+                    "id": "left_arm_x",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "left_arm_y",
+                    "id": "left_arm_y",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "left_arm_z",
+                    "id": "left_arm_z",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "right_arm_x",
+                    "id": "right_arm_x",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "right_arm_y",
+                    "id": "right_arm_y",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "right_arm_z",
+                    "id": "right_arm_z",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "left_leg_x",
+                    "id": "left_leg_x",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "left_leg_y",
+                    "id": "left_leg_y",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "left_leg_z",
+                    "id": "left_leg_z",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "right_leg_x",
+                    "id": "right_leg_x",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "right_leg_y",
+                    "id": "right_leg_y",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   },
                   {
-                    "name": "right_leg_z",
+                    "id": "right_leg_z",
                     "attribute": "attack_damage",
                     "amount": {
                       "min": -180,
                       "max": 180
                     },
                     "slot": "mainhand",
-                    "operation": "addition"
+                    "operation": "add_value"
                   }
                 ]
               }
