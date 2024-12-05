@@ -1,6 +1,10 @@
 {
     "components":{
-        "minecraft:custom_model_data": 10,
+        "minecraft:custom_model_data": {
+            "strings": [
+            "armor_statues:book"
+            ]
+        },
         "minecraft:custom_data": {
             "datapack":"ArmorStatuesV2"
         },
